@@ -1,0 +1,20 @@
+
+name: bearing_fault
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.12
+  - pip
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - joblib
+  - jupyterlab
+  - notebook
+  - ipykernel
+  - pytest
+  
