@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Conda and virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data: keep datasets out of Git
+data/raw/
+data/processed/
+
+# Trained models
+models/
+
+# Generated results
+results/metrics/
+results/figures/
+
+# Local environment and editor settings
+.env
+.vscode/
+
+# Operating system
+.DS_Store
+Thumbs.db
