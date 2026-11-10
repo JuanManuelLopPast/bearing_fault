@@ -1,10 +1,13 @@
+
 from pathlib import Path
 
-# Project paths
-ROOT_DIR = Path(__file__).resolve().parents[1]
+# Project directories
+ROOT_DIR = Path(__file__).resolve().parents[2]
+
 RAW_DATA_DIR = ROOT_DIR / "data" / "raw" / "paderborn"
 FEATURES_DIR = ROOT_DIR / "data" / "processed" / "features"
 FEATURES_FILE = FEATURES_DIR / "features.csv"
+
 MODELS_DIR = ROOT_DIR / "models"
 RESULTS_DIR = ROOT_DIR / "results"
 METRICS_DIR = RESULTS_DIR / "metrics"
