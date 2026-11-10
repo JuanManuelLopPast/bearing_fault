@@ -30,3 +30,6 @@ results/figures/
 # Operating system
 .DS_Store
 Thumbs.db
+
+# Generated experiment outputs
+results/
